@@ -1,0 +1,438 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Preschool homepage with hero, features, and call-to-action",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline in the hero section"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the hero title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer descriptive text for the hero section"
+        },
+        {
+          "id": "features_title",
+          "label": "Features Section Title",
+          "type": "string"
+        },
+        {
+          "id": "features_subtitle",
+          "label": "Features Section Subtitle",
+          "type": "string"
+        },
+        {
+          "id": "features_items",
+          "label": "Feature Items",
+          "type": "paragraph(feature_item)[]",
+          "description": "List of feature highlight blocks"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Section Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA Text",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "program",
+      "label": "Program",
+      "description": "Preschool and daycare programs for different age groups",
+      "body": true,
+      "fields": [
+        {
+          "id": "age_range",
+          "label": "Age Range",
+          "type": "string",
+          "description": "Target age group (e.g., '2-3 years')"
+        },
+        {
+          "id": "schedule",
+          "label": "Schedule",
+          "type": "string",
+          "description": "Program schedule (e.g., 'Mon-Fri, 8:30 AM - 12:00 PM')"
+        },
+        {
+          "id": "tuition",
+          "label": "Tuition",
+          "type": "string",
+          "description": "Monthly tuition cost"
+        },
+        {
+          "id": "image",
+          "label": "Program Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "staff",
+      "label": "Staff Member",
+      "description": "Teachers, aides, and administrative staff",
+      "body": true,
+      "fields": [
+        {
+          "id": "position",
+          "label": "Position",
+          "type": "string",
+          "description": "Job title (e.g., 'Lead Teacher')"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        },
+        {
+          "id": "certifications",
+          "label": "Certifications",
+          "type": "string",
+          "description": "Professional certifications"
+        }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "Event",
+      "description": "Preschool events, open houses, and family activities",
+      "body": true,
+      "fields": [
+        {
+          "id": "event_date",
+          "label": "Event Date",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Event Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, enrollment, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "description": "Individual feature highlight with icon, title, and description",
+      "fields": [
+        {
+          "id": "icon",
+          "label": "Icon",
+          "type": "string",
+          "description": "Icon name for the feature"
+        },
+        {
+          "id": "title",
+          "label": "Title",
+          "type": "string!",
+          "description": "Feature title (required)"
+        },
+        {
+          "id": "description",
+          "label": "Description",
+          "type": "text",
+          "description": "Detailed description of the feature"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "feature-play",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "palette",
+        "title": "Play-Based Learning",
+        "description": "Children learn through guided play, fostering creativity, problem-solving, and social skills in a joyful environment."
+      }
+    },
+    {
+      "id": "feature-safety",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "shield",
+        "title": "Safe & Nurturing",
+        "description": "Our secure facilities and caring staff create a warm, safe space where every child feels valued and protected."
+      }
+    },
+    {
+      "id": "feature-teachers",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "heart",
+        "title": "Qualified Teachers",
+        "description": "Our educators hold early childhood certifications and bring passion and expertise to every classroom."
+      }
+    },
+    {
+      "id": "feature-nutrition",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "apple",
+        "title": "Healthy Meals",
+        "description": "Nutritious, allergen-conscious breakfast, lunch, and snacks prepared fresh daily by our on-site kitchen."
+      }
+    },
+    {
+      "id": "feature-outdoor",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "sun",
+        "title": "Outdoor Exploration",
+        "description": "Age-appropriate playgrounds and nature areas encourage physical activity and a love for the outdoors."
+      }
+    },
+    {
+      "id": "feature-community",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "users",
+        "title": "Family Partnership",
+        "description": "Regular parent conferences, family events, and open communication keep you connected to your child's growth."
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Little Explorers Preschool",
+        "hero_title": "Where Little Minds Grow Big",
+        "hero_subtitle": "Nurturing Curiosity Every Day",
+        "hero_description": "<p>At Little Explorers Preschool, we believe every child is a natural learner. Our play-based curriculum sparks curiosity, builds confidence, and lays the foundation for a lifetime of discovery.</p>",
+        "features_title": "Why Families Choose Us",
+        "features_subtitle": "A caring community dedicated to your child's growth and happiness",
+        "features_items": [
+          "@feature-play",
+          "@feature-safety",
+          "@feature-teachers",
+          "@feature-nutrition",
+          "@feature-outdoor",
+          "@feature-community"
+        ],
+        "cta_title": "Ready to Enroll?",
+        "cta_description": "<p>Spaces fill quickly! Schedule a tour to see our classrooms, meet our teachers, and discover why families love Little Explorers.</p>",
+        "cta_primary": "Schedule a Tour",
+        "cta_secondary": "Learn More"
+      }
+    },
+    {
+      "id": "program-toddler",
+      "type": "node.program",
+      "path": "/programs/toddler-discovery",
+      "values": {
+        "title": "Toddler Discovery",
+        "body": "<p>Our Toddler Discovery program is designed for curious little ones taking their first steps into structured learning. Through sensory play, music, and movement, toddlers develop language skills, motor coordination, and social awareness.</p><h2>Daily Activities</h2><ul><li>Circle time with songs and stories</li><li>Sensory bins and art exploration</li><li>Outdoor play and nature walks</li><li>Quiet rest time with soothing music</li></ul>",
+        "age_range": "18 months - 2 years",
+        "schedule": "Mon-Fri, 8:00 AM - 12:30 PM",
+        "tuition": "$1,200/month",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+          "alt": "Toddler Discovery Program"
+        }
+      }
+    },
+    {
+      "id": "program-preschool",
+      "type": "node.program",
+      "path": "/programs/preschool-adventures",
+      "values": {
+        "title": "Preschool Adventures",
+        "body": "<p>Our core preschool program provides a rich, play-based curriculum that prepares children for kindergarten and beyond. Children engage in hands-on learning across literacy, math, science, and the arts.</p><h2>Curriculum Highlights</h2><ul><li>Emergent literacy and phonics readiness</li><li>Math concepts through manipulatives and games</li><li>Science experiments and nature journals</li><li>Creative arts, music, and dramatic play</li></ul>",
+        "age_range": "3 - 4 years",
+        "schedule": "Mon-Fri, 8:00 AM - 3:00 PM",
+        "tuition": "$1,450/month",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+          "alt": "Preschool Adventures Program"
+        }
+      }
+    },
+    {
+      "id": "program-prek",
+      "type": "node.program",
+      "path": "/programs/pre-kindergarten",
+      "values": {
+        "title": "Pre-Kindergarten",
+        "body": "<p>Our Pre-K program bridges the gap between preschool and elementary school. With a focus on academic readiness, social-emotional development, and independence, children graduate confident and prepared.</p><h2>School Readiness Skills</h2><ul><li>Letter recognition and early reading</li><li>Number sense and basic math operations</li><li>Writing name and simple sentences</li><li>Collaborative projects and presentations</li></ul>",
+        "age_range": "4 - 5 years",
+        "schedule": "Mon-Fri, 8:00 AM - 3:30 PM",
+        "tuition": "$1,550/month",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+          "alt": "Pre-Kindergarten Program"
+        }
+      }
+    },
+    {
+      "id": "program-aftercare",
+      "type": "node.program",
+      "path": "/programs/after-school-care",
+      "values": {
+        "title": "After School Care",
+        "body": "<p>Extended care for families who need flexible afternoon hours. Children enjoy structured enrichment activities, homework help, and free play in a relaxed, supervised setting.</p><h2>Afternoon Activities</h2><ul><li>Healthy snack time</li><li>Outdoor free play and sports</li><li>Arts and crafts projects</li><li>STEM exploration activities</li></ul>",
+        "age_range": "3 - 6 years",
+        "schedule": "Mon-Fri, 3:00 PM - 6:00 PM",
+        "tuition": "$650/month",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=800&q=80",
+          "alt": "After School Care Program"
+        }
+      }
+    },
+    {
+      "id": "staff-maria",
+      "type": "node.staff",
+      "path": "/staff/maria-gonzalez",
+      "values": {
+        "title": "Maria Gonzalez",
+        "body": "<p>Maria has been nurturing young minds for over 15 years. Her warm approach and creative lesson plans make every child feel special. She specializes in emergent literacy and bilingual education, bringing stories to life in both English and Spanish.</p>",
+        "position": "Lead Preschool Teacher",
+        "email": "maria@littleexplorers.edu",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80",
+          "alt": "Maria Gonzalez - Lead Preschool Teacher"
+        },
+        "certifications": "M.Ed. Early Childhood Education, CDA Credential, CPR/First Aid"
+      }
+    },
+    {
+      "id": "staff-james",
+      "type": "node.staff",
+      "path": "/staff/james-chen",
+      "values": {
+        "title": "James Chen",
+        "body": "<p>James brings energy and enthusiasm to the Pre-K classroom. With a background in child development and STEM education, he creates hands-on learning experiences that prepare children for kindergarten while keeping the fun front and center.</p>",
+        "position": "Pre-K Teacher",
+        "email": "james@littleexplorers.edu",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+          "alt": "James Chen - Pre-K Teacher"
+        },
+        "certifications": "B.S. Child Development, State Teaching License, CPR/First Aid"
+      }
+    },
+    {
+      "id": "staff-sarah",
+      "type": "node.staff",
+      "path": "/staff/sarah-williams",
+      "values": {
+        "title": "Sarah Williams",
+        "body": "<p>As our director, Sarah oversees all programs and ensures every family feels welcome. She has spent 20 years in early childhood education and is passionate about creating inclusive, play-based learning environments that celebrate each child's uniqueness.</p>",
+        "position": "Director",
+        "email": "sarah@littleexplorers.edu",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+          "alt": "Sarah Williams - Director"
+        },
+        "certifications": "M.Ed. Educational Leadership, NAEYC Administrator Credential, CPR/First Aid"
+      }
+    },
+    {
+      "id": "event-openhouse",
+      "type": "node.event",
+      "path": "/events/spring-open-house",
+      "values": {
+        "title": "Spring Open House",
+        "body": "<p>Come explore our classrooms, meet our teachers, and learn about our programs! This is a wonderful opportunity for prospective families to experience the Little Explorers community firsthand.</p><h2>What to Expect</h2><ul><li>Guided campus tours every 20 minutes</li><li>Meet and greet with lead teachers</li><li>Children's activity corner</li><li>Enrollment information and Q&A</li></ul>",
+        "event_date": "2026-04-12T10:00:00",
+        "location": "Main Campus, 456 Sunshine Lane",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+          "alt": "Spring Open House"
+        }
+      }
+    },
+    {
+      "id": "event-artshow",
+      "type": "node.event",
+      "path": "/events/little-artists-showcase",
+      "values": {
+        "title": "Little Artists Showcase",
+        "body": "<p>Celebrate your child's creativity at our annual art exhibition! Every student's work will be displayed in our transformed gymnasium gallery. Enjoy refreshments, live music, and watch your little artists beam with pride.</p>",
+        "event_date": "2026-05-08T17:00:00",
+        "location": "School Gymnasium",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+          "alt": "Little Artists Showcase"
+        }
+      }
+    },
+    {
+      "id": "event-graduation",
+      "type": "node.event",
+      "path": "/events/pre-k-graduation",
+      "values": {
+        "title": "Pre-K Graduation Ceremony",
+        "body": "<p>Join us as we celebrate our Pre-K graduates as they take their next big step toward kindergarten! This heartwarming ceremony includes cap-and-gown photos, a short program, and a reception for families.</p>",
+        "event_date": "2026-06-15T10:00:00",
+        "location": "Outdoor Amphitheater",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+          "alt": "Pre-K Graduation Ceremony"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Little Explorers",
+        "body": "<p>Founded in 2010, Little Explorers Preschool has grown from a single classroom into a thriving early learning community serving over 120 families. Our mission is to provide a nurturing, play-based environment where every child can discover, create, and grow.</p><h2>Our Philosophy</h2><p>We believe children learn best through play. Our curriculum draws from Reggio Emilia, Montessori, and nature-based approaches to create a rich, child-centered learning experience. Every day, children explore, question, and make connections that build the foundation for lifelong learning.</p><h2>Our Commitment</h2><ul><li><strong>Inclusivity</strong> - Every child and family is welcomed and celebrated</li><li><strong>Quality</strong> - Low teacher-to-student ratios and certified educators</li><li><strong>Safety</strong> - Secure campus with background-checked staff</li><li><strong>Community</strong> - Strong family partnerships and involvement</li></ul>"
+      }
+    },
+    {
+      "id": "page-enrollment",
+      "type": "node.page",
+      "path": "/enrollment",
+      "values": {
+        "title": "Enrollment Information",
+        "body": "<h2>How to Enroll</h2><p>We accept applications year-round, though spaces are limited and fill quickly for the fall semester. Here is our enrollment process:</p><ol><li><strong>Schedule a Tour</strong> - Visit our campus and meet our staff</li><li><strong>Submit Application</strong> - Complete the online application form</li><li><strong>Family Interview</strong> - Meet with our director to discuss your child's needs</li><li><strong>Enrollment Confirmation</strong> - Reserve your spot with a registration fee</li></ol><h2>Tuition & Fees</h2><p>Tuition varies by program and schedule. A non-refundable registration fee of $150 is required upon enrollment. We offer sibling discounts and accept childcare assistance programs.</p><h2>What to Bring</h2><ul><li>Completed enrollment forms</li><li>Immunization records</li><li>Emergency contact information</li><li>A change of clothes and comfort item</li></ul>"
+      }
+    }
+  ]
+}

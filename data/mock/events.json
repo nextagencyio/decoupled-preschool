@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-openhouse",
+          "title": "Spring Open House",
+          "path": "/events/spring-open-house",
+          "body": {
+            "processed": "<p>Come explore our classrooms, meet our teachers, and learn about our programs! This is a wonderful opportunity for prospective families to experience the Little Explorers community firsthand.</p><h2>What to Expect</h2><ul><li>Guided campus tours every 20 minutes</li><li>Meet and greet with lead teachers</li><li>Children's activity corner</li><li>Enrollment information and Q&A</li></ul>",
+            "summary": "Come explore our classrooms, meet our teachers, and learn about our programs! This is a wonderful opportunity for prospective families to experience the Little Explorers community firsthand.What to Ex"
+          },
+          "eventDate": {
+            "timestamp": 1776006000
+          },
+          "location": "Main Campus, 456 Sunshine Lane",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+            "alt": "Spring Open House",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-artshow",
+          "title": "Little Artists Showcase",
+          "path": "/events/little-artists-showcase",
+          "body": {
+            "processed": "<p>Celebrate your child's creativity at our annual art exhibition! Every student's work will be displayed in our transformed gymnasium gallery. Enjoy refreshments, live music, and watch your little artists beam with pride.</p>",
+            "summary": "Celebrate your child's creativity at our annual art exhibition! Every student's work will be displayed in our transformed gymnasium gallery. Enjoy refreshments, live music, and watch your little artis"
+          },
+          "eventDate": {
+            "timestamp": 1778277600
+          },
+          "location": "School Gymnasium",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Little Artists Showcase",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-graduation",
+          "title": "Pre-K Graduation Ceremony",
+          "path": "/events/pre-k-graduation",
+          "body": {
+            "processed": "<p>Join us as we celebrate our Pre-K graduates as they take their next big step toward kindergarten! This heartwarming ceremony includes cap-and-gown photos, a short program, and a reception for families.</p>",
+            "summary": "Join us as we celebrate our Pre-K graduates as they take their next big step toward kindergarten! This heartwarming ceremony includes cap-and-gown photos, a short program, and a reception for families"
+          },
+          "eventDate": {
+            "timestamp": 1781535600
+          },
+          "location": "Outdoor Amphitheater",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+            "alt": "Pre-K Graduation Ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

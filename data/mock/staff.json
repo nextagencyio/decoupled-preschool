@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeStaffs": {
+      "__typename": "NodeStaffConnection",
+      "nodes": [
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-maria",
+          "title": "Maria Gonzalez",
+          "path": "/staff/maria-gonzalez",
+          "body": {
+            "processed": "<p>Maria has been nurturing young minds for over 15 years. Her warm approach and creative lesson plans make every child feel special. She specializes in emergent literacy and bilingual education, bringing stories to life in both English and Spanish.</p>",
+            "summary": "Maria has been nurturing young minds for over 15 years. Her warm approach and creative lesson plans make every child feel special. She specializes in emergent literacy and bilingual education, bringin"
+          },
+          "position": "Lead Preschool Teacher",
+          "email": "maria@littleexplorers.edu",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80",
+            "alt": "Maria Gonzalez - Lead Preschool Teacher",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": "M.Ed. Early Childhood Education, CDA Credential, CPR/First Aid"
+        },
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-james",
+          "title": "James Chen",
+          "path": "/staff/james-chen",
+          "body": {
+            "processed": "<p>James brings energy and enthusiasm to the Pre-K classroom. With a background in child development and STEM education, he creates hands-on learning experiences that prepare children for kindergarten while keeping the fun front and center.</p>",
+            "summary": "James brings energy and enthusiasm to the Pre-K classroom. With a background in child development and STEM education, he creates hands-on learning experiences that prepare children for kindergarten wh"
+          },
+          "position": "Pre-K Teacher",
+          "email": "james@littleexplorers.edu",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "James Chen - Pre-K Teacher",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": "B.S. Child Development, State Teaching License, CPR/First Aid"
+        },
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-sarah",
+          "title": "Sarah Williams",
+          "path": "/staff/sarah-williams",
+          "body": {
+            "processed": "<p>As our director, Sarah oversees all programs and ensures every family feels welcome. She has spent 20 years in early childhood education and is passionate about creating inclusive, play-based learning environments that celebrate each child's uniqueness.</p>",
+            "summary": "As our director, Sarah oversees all programs and ensures every family feels welcome. She has spent 20 years in early childhood education and is passionate about creating inclusive, play-based learning"
+          },
+          "position": "Director",
+          "email": "sarah@littleexplorers.edu",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Williams - Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": "M.Ed. Educational Leadership, NAEYC Administrator Credential, CPR/First Aid"
+        }
+      ]
+    }
+  }
+}

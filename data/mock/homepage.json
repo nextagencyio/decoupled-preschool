@@ -1,0 +1,92 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Little Explorers Preschool",
+          "path": "/homepage",
+          "heroTitle": "Where Little Minds Grow Big",
+          "heroSubtitle": "Nurturing Curiosity Every Day",
+          "heroDescription": {
+            "processed": "<p>At Little Explorers Preschool, we believe every child is a natural learner. Our play-based curriculum sparks curiosity, builds confidence, and lays the foundation for a lifetime of discovery.</p>",
+            "summary": "At Little Explorers Preschool, we believe every child is a natural learner. Our play-based curriculum sparks curiosity, builds confidence, and lays the foundation for a lifetime of discovery."
+          },
+          "featuresTitle": "Why Families Choose Us",
+          "featuresSubtitle": "A caring community dedicated to your child's growth and happiness",
+          "featuresItems": [
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-play",
+              "title": "Play-Based Learning",
+              "icon": "palette",
+              "description": {
+                "processed": "Children learn through guided play, fostering creativity, problem-solving, and social skills in a joyful environment.",
+                "summary": "Children learn through guided play, fostering creativity, problem-solving, and social skills in a joyful environment."
+              }
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-safety",
+              "title": "Safe & Nurturing",
+              "icon": "shield",
+              "description": {
+                "processed": "Our secure facilities and caring staff create a warm, safe space where every child feels valued and protected.",
+                "summary": "Our secure facilities and caring staff create a warm, safe space where every child feels valued and protected."
+              }
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-teachers",
+              "title": "Qualified Teachers",
+              "icon": "heart",
+              "description": {
+                "processed": "Our educators hold early childhood certifications and bring passion and expertise to every classroom.",
+                "summary": "Our educators hold early childhood certifications and bring passion and expertise to every classroom."
+              }
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-nutrition",
+              "title": "Healthy Meals",
+              "icon": "apple",
+              "description": {
+                "processed": "Nutritious, allergen-conscious breakfast, lunch, and snacks prepared fresh daily by our on-site kitchen.",
+                "summary": "Nutritious, allergen-conscious breakfast, lunch, and snacks prepared fresh daily by our on-site kitchen."
+              }
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-outdoor",
+              "title": "Outdoor Exploration",
+              "icon": "sun",
+              "description": {
+                "processed": "Age-appropriate playgrounds and nature areas encourage physical activity and a love for the outdoors.",
+                "summary": "Age-appropriate playgrounds and nature areas encourage physical activity and a love for the outdoors."
+              }
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feature-community",
+              "title": "Family Partnership",
+              "icon": "users",
+              "description": {
+                "processed": "Regular parent conferences, family events, and open communication keep you connected to your child's growth.",
+                "summary": "Regular parent conferences, family events, and open communication keep you connected to your child's growth."
+              }
+            }
+          ],
+          "ctaTitle": "Ready to Enroll?",
+          "ctaDescription": {
+            "processed": "<p>Spaces fill quickly! Schedule a tour to see our classrooms, meet our teachers, and discover why families love Little Explorers.</p>",
+            "summary": "Spaces fill quickly! Schedule a tour to see our classrooms, meet our teachers, and discover why families love Little Explorers."
+          },
+          "ctaPrimary": "Schedule a Tour",
+          "ctaSecondary": "Learn More"
+        }
+      ]
+    }
+  }
+}

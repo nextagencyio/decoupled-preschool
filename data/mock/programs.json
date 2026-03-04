@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-toddler",
+          "title": "Toddler Discovery",
+          "path": "/programs/toddler-discovery",
+          "body": {
+            "processed": "<p>Our Toddler Discovery program is designed for curious little ones taking their first steps into structured learning. Through sensory play, music, and movement, toddlers develop language skills, motor coordination, and social awareness.</p><h2>Daily Activities</h2><ul><li>Circle time with songs and stories</li><li>Sensory bins and art exploration</li><li>Outdoor play and nature walks</li><li>Quiet rest time with soothing music</li></ul>",
+            "summary": "Our Toddler Discovery program is designed for curious little ones taking their first steps into structured learning. Through sensory play, music, and movement, toddlers develop language skills, motor "
+          },
+          "ageRange": "18 months - 2 years",
+          "schedule": "Mon-Fri, 8:00 AM - 12:30 PM",
+          "tuition": "$1,200/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Toddler Discovery Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-preschool",
+          "title": "Preschool Adventures",
+          "path": "/programs/preschool-adventures",
+          "body": {
+            "processed": "<p>Our core preschool program provides a rich, play-based curriculum that prepares children for kindergarten and beyond. Children engage in hands-on learning across literacy, math, science, and the arts.</p><h2>Curriculum Highlights</h2><ul><li>Emergent literacy and phonics readiness</li><li>Math concepts through manipulatives and games</li><li>Science experiments and nature journals</li><li>Creative arts, music, and dramatic play</li></ul>",
+            "summary": "Our core preschool program provides a rich, play-based curriculum that prepares children for kindergarten and beyond. Children engage in hands-on learning across literacy, math, science, and the arts."
+          },
+          "ageRange": "3 - 4 years",
+          "schedule": "Mon-Fri, 8:00 AM - 3:00 PM",
+          "tuition": "$1,450/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+            "alt": "Preschool Adventures Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-prek",
+          "title": "Pre-Kindergarten",
+          "path": "/programs/pre-kindergarten",
+          "body": {
+            "processed": "<p>Our Pre-K program bridges the gap between preschool and elementary school. With a focus on academic readiness, social-emotional development, and independence, children graduate confident and prepared.</p><h2>School Readiness Skills</h2><ul><li>Letter recognition and early reading</li><li>Number sense and basic math operations</li><li>Writing name and simple sentences</li><li>Collaborative projects and presentations</li></ul>",
+            "summary": "Our Pre-K program bridges the gap between preschool and elementary school. With a focus on academic readiness, social-emotional development, and independence, children graduate confident and prepared."
+          },
+          "ageRange": "4 - 5 years",
+          "schedule": "Mon-Fri, 8:00 AM - 3:30 PM",
+          "tuition": "$1,550/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+            "alt": "Pre-Kindergarten Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-aftercare",
+          "title": "After School Care",
+          "path": "/programs/after-school-care",
+          "body": {
+            "processed": "<p>Extended care for families who need flexible afternoon hours. Children enjoy structured enrichment activities, homework help, and free play in a relaxed, supervised setting.</p><h2>Afternoon Activities</h2><ul><li>Healthy snack time</li><li>Outdoor free play and sports</li><li>Arts and crafts projects</li><li>STEM exploration activities</li></ul>",
+            "summary": "Extended care for families who need flexible afternoon hours. Children enjoy structured enrichment activities, homework help, and free play in a relaxed, supervised setting.Afternoon ActivitiesHealthy"
+          },
+          "ageRange": "3 - 6 years",
+          "schedule": "Mon-Fri, 3:00 PM - 6:00 PM",
+          "tuition": "$650/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=800&q=80",
+            "alt": "After School Care Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
