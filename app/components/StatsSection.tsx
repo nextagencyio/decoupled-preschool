@@ -29,7 +29,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
             <div key={stat.id || i} className="flex flex-col items-center">
               <div className={`w-28 h-28 rounded-full border-4 flex items-center justify-center mb-4 ${bubbleColors[i % bubbleColors.length]}`}>
                 <span className="text-3xl md:text-4xl font-bold font-display">
-                  {stat.value || stat.statValue}
+                  {stat.value || stat.number || stat.statValue}
                 </span>
               </div>
               <div className="text-gray-700 font-semibold text-sm">
