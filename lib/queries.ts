@@ -11,12 +11,12 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
+        heroDescription { processed }
         featuresTitle
         featuresSubtitle
         featuresItems { ... on ParagraphFeatureItem { id title description { processed } icon } }
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -48,8 +48,6 @@ export const GET_PROGRAMS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -81,8 +79,6 @@ export const GET_PROGRAM_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -95,7 +91,7 @@ export const GET_PROGRAM_BY_PATH = gql`
 // Staff
 export const GET_STAFF = gql`
   query GetStaff($first: Int = 50) {
-    nodeStaffs(first: $first, sortKey: TITLE) {
+    nodeStaffItems(first: $first, sortKey: TITLE) {
       nodes {
         id
         title
@@ -114,8 +110,6 @@ export const GET_STAFF = gql`
             variations(styles: [MEDIUM, THUMBNAIL]) {
               name
               url
-              width
-              height
             }
           }
           certifications
@@ -147,8 +141,6 @@ export const GET_STAFF_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
             certifications
@@ -184,8 +176,6 @@ export const GET_EVENTS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -218,8 +208,6 @@ export const GET_EVENT_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -350,8 +338,6 @@ export const GET_FEATURED_PROGRAMS = gql`
             variations(styles: [MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -379,8 +365,6 @@ export const GET_UPCOMING_EVENTS = gql`
             variations(styles: [MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
